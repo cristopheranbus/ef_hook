@@ -1,0 +1,37 @@
+{
+ "spec": {
+  "sim_id": "B-G4-macizo",
+  "geometry": "G4",
+  "case": 2,
+  "profile": "macizo",
+  "h": 0.5,
+  "E": 3500.0,
+  "nu": 0.35,
+  "k": null,
+  "series": "B",
+  "note": ""
+ },
+ "n_elements": 126040,
+ "n_nodes": 140913,
+ "n_dof_free": 375027,
+ "nnz": 21769343,
+ "solver": "PCG-Jacobi",
+ "iterations": 740,
+ "residual": 9.702128571161111e-10,
+ "t_solve": 105.95656163599983,
+ "t_total": 113.17376444199999,
+ "volume_cm3": 15.755,
+ "s1_max": 6.358141717929923,
+ "s1_p998": 3.428821748432792,
+ "svm_max": 4.669447410329281,
+ "s1_max_loc": [
+  -16.75,
+  -22.25,
+  -1.25
+ ],
+ "opening": 0.0,
+ "n_load_nodes": 1974,
+ "extra": {
+  "vm_over_s1_at_peak": 0.7343196487380733
+ }
+}

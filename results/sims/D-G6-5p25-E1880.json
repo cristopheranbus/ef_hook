@@ -1,0 +1,37 @@
+{
+ "spec": {
+  "sim_id": "D-G6-5p25-E1880",
+  "geometry": "G6",
+  "case": 3,
+  "profile": "5p25",
+  "h": 0.5,
+  "E": 1880.0,
+  "nu": 0.35,
+  "k": null,
+  "series": "D",
+  "note": "E"
+ },
+ "n_elements": 120460,
+ "n_nodes": 135013,
+ "n_dof_free": 403548,
+ "nnz": 23545478,
+ "solver": "PCG-Jacobi",
+ "iterations": 1048,
+ "residual": 1.0016390253785623e-09,
+ "t_solve": 225.01870604499982,
+ "t_total": 234.10642464300008,
+ "volume_cm3": 15.0575,
+ "s1_max": 54.48228238204236,
+ "s1_p998": 40.63478091994405,
+ "svm_max": 45.3081053964755,
+ "s1_max_loc": [
+  -2.75,
+  18.25,
+  0.25
+ ],
+ "opening": 9.913414938034254,
+ "n_load_nodes": 1882,
+ "extra": {
+  "vm_over_s1_at_peak": 0.8316117353301132
+ }
+}

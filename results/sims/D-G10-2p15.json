@@ -1,0 +1,37 @@
+{
+ "spec": {
+  "sim_id": "D-G10-2p15",
+  "geometry": "G10",
+  "case": 3,
+  "profile": "2p15",
+  "h": 0.5,
+  "E": 3500.0,
+  "nu": 0.35,
+  "k": null,
+  "series": "D",
+  "note": "perfil"
+ },
+ "n_elements": 138620,
+ "n_nodes": 153911,
+ "n_dof_free": 459750,
+ "nnz": 27398795,
+ "solver": "PCG-Jacobi",
+ "iterations": 1206,
+ "residual": 9.80019855433735e-10,
+ "t_solve": 273.60302721699964,
+ "t_total": 283.62521926599993,
+ "volume_cm3": 17.3275,
+ "s1_max": 51.646710656348546,
+ "s1_p998": 40.442516284861654,
+ "svm_max": 43.5225136820008,
+ "s1_max_loc": [
+  -4.25,
+  13.75,
+  -0.25
+ ],
+ "opening": 3.6119544216876256,
+ "n_load_nodes": 1882,
+ "extra": {
+  "vm_over_s1_at_peak": 0.8426967202537597
+ }
+}

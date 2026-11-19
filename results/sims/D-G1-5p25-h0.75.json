@@ -1,0 +1,37 @@
+{
+ "spec": {
+  "sim_id": "D-G1-5p25-h0.75",
+  "geometry": "G1",
+  "case": 3,
+  "profile": "5p25",
+  "h": 0.75,
+  "E": 3500.0,
+  "nu": 0.35,
+  "k": null,
+  "series": "D",
+  "note": "convergencia"
+ },
+ "n_elements": 40892,
+ "n_nodes": 47759,
+ "n_dof_free": 142554,
+ "nnz": 9154065,
+ "solver": "PCG-Jacobi",
+ "iterations": 742,
+ "residual": 9.980726875382566e-10,
+ "t_solve": 58.639753803000076,
+ "t_total": 61.230911301000106,
+ "volume_cm3": 17.2513125,
+ "s1_max": 79.17452420339788,
+ "s1_p998": 43.482403501899306,
+ "svm_max": 62.627440138642235,
+ "s1_max_loc": [
+  16.125,
+  18.375,
+  -1.875
+ ],
+ "opening": 6.357963481501702,
+ "n_load_nodes": 844,
+ "extra": {
+  "vm_over_s1_at_peak": 0.7910049446934914
+ }
+}

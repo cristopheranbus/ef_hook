@@ -1,0 +1,37 @@
+{
+ "spec": {
+  "sim_id": "B-G4o14-5p25",
+  "geometry": "G4o14",
+  "case": 2,
+  "profile": "5p25",
+  "h": 0.5,
+  "E": 3500.0,
+  "nu": 0.35,
+  "k": null,
+  "series": "B",
+  "note": ""
+ },
+ "n_elements": 143928,
+ "n_nodes": 160007,
+ "n_dof_free": 432309,
+ "nnz": 25569327,
+ "solver": "PCG-Jacobi",
+ "iterations": 877,
+ "residual": 9.802827666983032e-10,
+ "t_solve": 139.8019800510001,
+ "t_total": 148.05094972100005,
+ "volume_cm3": 17.991,
+ "s1_max": 6.805213518384242,
+ "s1_p998": 3.784449300618573,
+ "svm_max": 4.977220085431987,
+ "s1_max_loc": [
+  -16.75,
+  -22.25,
+  -1.25
+ ],
+ "opening": 0.0,
+ "n_load_nodes": 2248,
+ "extra": {
+  "vm_over_s1_at_peak": 0.7282245082336256
+ }
+}

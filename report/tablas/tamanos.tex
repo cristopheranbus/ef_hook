@@ -1,0 +1,19 @@
+\begin{table}[htbp]
+\centering\small
+\caption{Tamaño y costo de los modelos (valores registrados por el solver de este repositorio).}
+\label{tab:tamanos}
+\fitbox{
+\begin{tabular}{lrrrrlrrr}
+\toprule
+Modelo & $h$ [mm] & Elementos & GDL libres & nnz($K_{ff}$) & Solver & Iter. & Residuo & $t$ [s] \\
+\midrule
+G6 macizo & 1{,}00 & 14\,856 & 55\,140 & 3{,}8$\cdot10^6$ & LU disperso & — & 7{,}3e-11 & 23 \\
+G6 macizo & 0{,}75 & 36\,564 & 128\,658 & 9{,}3$\cdot10^6$ & PCG-Jacobi & 608 & 1{,}0e-09 & 64 \\
+G6, 5 paredes & 0{,}50 & 120\,460 & 403\,548 & 23{,}8$\cdot10^6$ & PCG-Jacobi & 1048 & 1{,}0e-09 & 154 \\
+G1, 2 paredes, $k=0{,}0225$ & 0{,}50 & 132\,660 & 442\,212 & 25{,}9$\cdot10^6$ & PCG-Jacobi & 1688 & 1{,}3e-09 & 366 \\
+G10, 5 paredes & 0{,}50 & 138\,620 & 459\,750 & 27{,}2$\cdot10^6$ & PCG-Jacobi & 1032 & 1{,}0e-09 & 204 \\
+G6 macizo & 0{,}40 & 237\,032 & 776\,724 & 50{,}6$\cdot10^6$ & PCG-Jacobi & 1140 & 1{,}1e-09 & 284 \\
+\bottomrule
+\end{tabular}}
+\par\smallskip\parbox{0.95\linewidth}{\footnotesize Tiempos en un contenedor de 4 núcleos con 3 simulaciones en paralelo.}
+\end{table}

@@ -1,0 +1,37 @@
+{
+ "spec": {
+  "sim_id": "A-G6o14-5p25",
+  "geometry": "G6o14",
+  "case": 1,
+  "profile": "5p25",
+  "h": 0.5,
+  "E": 3500.0,
+  "nu": 0.35,
+  "k": null,
+  "series": "A",
+  "note": ""
+ },
+ "n_elements": 136824,
+ "n_nodes": 152515,
+ "n_dof_free": 409833,
+ "nnz": 24238458,
+ "solver": "PCG-Jacobi",
+ "iterations": 846,
+ "residual": 9.489384130549978e-10,
+ "t_solve": 125.99172727600012,
+ "t_total": 133.533569897,
+ "volume_cm3": 17.103,
+ "s1_max": 5.937476763181085,
+ "s1_p998": 4.518332978903861,
+ "svm_max": 5.007507995882702,
+ "s1_max_loc": [
+  16.75,
+  4.25,
+  -0.25
+ ],
+ "opening": 0.043213063336944586,
+ "n_load_nodes": 2475,
+ "extra": {
+  "vm_over_s1_at_peak": 0.8433730683266879
+ }
+}

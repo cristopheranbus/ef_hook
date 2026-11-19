@@ -1,0 +1,37 @@
+{
+ "spec": {
+  "sim_id": "D-G6-macizo-h1.0",
+  "geometry": "G6",
+  "case": 3,
+  "profile": "macizo",
+  "h": 1.0,
+  "E": 3500.0,
+  "nu": 0.35,
+  "k": null,
+  "series": "D",
+  "note": "convergencia"
+ },
+ "n_elements": 14856,
+ "n_nodes": 18517,
+ "n_dof_free": 55140,
+ "nnz": 3848328,
+ "solver": "LU disperso",
+ "iterations": 0,
+ "residual": 7.265375371887911e-11,
+ "t_solve": 22.89236025900027,
+ "t_total": 23.94425830399996,
+ "volume_cm3": 14.856,
+ "s1_max": 41.86383426293539,
+ "s1_p998": 34.385191385603,
+ "svm_max": 36.73500570980547,
+ "s1_max_loc": [
+  -3.5,
+  18.5,
+  -0.5
+ ],
+ "opening": 4.656227262094408,
+ "n_load_nodes": 454,
+ "extra": {
+  "vm_over_s1_at_peak": 0.8774878449757578
+ }
+}

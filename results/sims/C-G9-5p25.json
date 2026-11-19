@@ -1,0 +1,37 @@
+{
+ "spec": {
+  "sim_id": "C-G9-5p25",
+  "geometry": "G9",
+  "case": 3,
+  "profile": "5p25",
+  "h": 0.5,
+  "E": 3500.0,
+  "nu": 0.35,
+  "k": null,
+  "series": "C",
+  "note": ""
+ },
+ "n_elements": 130208,
+ "n_nodes": 145161,
+ "n_dof_free": 433728,
+ "nnz": 25581257,
+ "solver": "PCG-Jacobi",
+ "iterations": 1041,
+ "residual": 9.941620723655061e-10,
+ "t_solve": 165.25072867500012,
+ "t_total": 172.900821618,
+ "volume_cm3": 16.276,
+ "s1_max": 40.33981070485538,
+ "s1_p998": 30.750532067267148,
+ "svm_max": 34.51039899269388,
+ "s1_max_loc": [
+  -2.25,
+  16.25,
+  -0.25
+ ],
+ "opening": 3.245089350151167,
+ "n_load_nodes": 1882,
+ "extra": {
+  "vm_over_s1_at_peak": 0.8554923384541351
+ }
+}

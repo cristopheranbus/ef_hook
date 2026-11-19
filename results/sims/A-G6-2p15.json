@@ -1,0 +1,37 @@
+{
+ "spec": {
+  "sim_id": "A-G6-2p15",
+  "geometry": "G6",
+  "case": 1,
+  "profile": "2p15",
+  "h": 0.5,
+  "E": 3500.0,
+  "nu": 0.35,
+  "k": null,
+  "series": "A",
+  "note": ""
+ },
+ "n_elements": 120460,
+ "n_nodes": 135013,
+ "n_dof_free": 357327,
+ "nnz": 21294003,
+ "solver": "PCG-Jacobi",
+ "iterations": 959,
+ "residual": 9.938855109008659e-10,
+ "t_solve": 129.51503622200016,
+ "t_total": 136.68000248700014,
+ "volume_cm3": 15.0575,
+ "s1_max": 11.10040153399655,
+ "s1_p998": 9.61452112740456,
+ "svm_max": 9.528886590501399,
+ "s1_max_loc": [
+  16.75,
+  4.25,
+  0.25
+ ],
+ "opening": 0.0953098655655745,
+ "n_load_nodes": 2331,
+ "extra": {
+  "vm_over_s1_at_peak": 0.8513253566011693
+ }
+}
